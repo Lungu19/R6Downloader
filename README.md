@@ -4,7 +4,7 @@
 
 ## R6 Downloader
 
-![Screen Shot](https://media.discordapp.net/attachments/887808050763792394/1136992810017509467/image.png)
+![Screen Shot](./showcase.png)
 
 R6 Downloader allows you to download and play older siege versions using Steam and DepotDownloader
 
