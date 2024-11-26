@@ -1,30 +1,25 @@
-﻿using Microsoft.UI.Xaml;
+﻿using Microsoft.UI.Text;
+using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Media.Imaging;
+using Microsoft.UI.Xaml.Media;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using Newtonsoft.Json.Linq;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Media.Imaging;
-using System.Threading;
 using System.Net;
 using System.Security.Cryptography;
-using System.Diagnostics;
-using R6_Downloader.Views;
-using Microsoft.UI.Text;
 using System.Threading.Tasks;
-using System.Text;
-using Path = System.IO.Path;
-using Windows.UI.ViewManagement;
 using Windows.System;
-using Windows.ApplicationModel.Core;
-using Windows.UI.Core;
-using Microsoft.UI.Dispatching;
-using DispatcherQueue = Microsoft.UI.Dispatching.DispatcherQueue;
-using System.Runtime.CompilerServices;
+using Windows.UI.ViewManagement;
+
+using Newtonsoft.Json.Linq;
 using DepotDownloader;
-using SteamKit2;
+using R6_Downloader.Views;
+
+using Path = System.IO.Path;
+using DispatcherQueue = Microsoft.UI.Dispatching.DispatcherQueue;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
